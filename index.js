@@ -2,7 +2,7 @@ var express     = require('express');
 var app         = express();
 var bodyParser  = require('body-parser');
 var orange      = require('./characters.json');
-
+var object = []; 
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -15,13 +15,44 @@ router.get('/all', function(req, res) {
     res.json(orange);   
 });
 
-router.get('/name/:character_name', function(req, res) {
-    var name = req.params.character_name;   
+router.get('/name/:name', function(req, res) {
+    var name = req.params.name;
+    name = name.replace(/-/g, ' ').toLowerCase();
+    object = [];  
     orange.forEach(function(value) {
-      if(value.character_name === name){
-        res.json({character_name: value.character_name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});  
+      if(value.name.toLowerCase() === name){
+        object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
       }
     });
+
+    res.json(object);
+});
+
+// search by gender male or female
+router.get('/gender/:gender', function(req, res) {
+    var gender = req.params.gender.toLowerCase();
+    object = [];
+    orange.forEach(function(value) {
+      if(value.gender === gender){
+        object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
+      }
+    });
+
+    res.json(object);
+    
+});
+
+// search by status alive or deceased
+router.get('/status/:status', function(req, res) {
+    var status = req.params.status.toLowerCase();
+    object = [];
+    orange.forEach(function(value) {
+      if(value.status === status){
+        object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
+      }
+    });
+
+    res.json(object);
 });
 
 app.use('/', router);
