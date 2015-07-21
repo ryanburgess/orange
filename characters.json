@@ -1,0 +1,480 @@
+[{
+  "character_name": "Piper Chapman",
+  "about": "Piper is serving time in prison for carrying drugs for her ex-girlfriend Alex.",
+  "real_name": "Taylor Schilling",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Alex Vause",
+  "about": "Alex is carrying out her sentence for being a drug smuggler.",
+  "real_name": "Laura Prepon",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Red",
+  "about": "Red is currently serving time in Litchfield for a Russian Mafia-related crime and the former head of the kitchen.",
+  "real_name": "Kate Mulgrew",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Gloria",
+  "about": "Gloria is the head of the kitchen and a hardcore lady that takes bullshit from no one.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Nicky Nichols",
+  "about": "Nicky is a recovering drug addict who says what&#8217;s on her mind and is currently serving time for an unknown crime.",
+  "real_name": "Natasha Lyonne",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{ 
+  "character_name": "Lorna Morello",
+  "about": "Lorna is planning the imaginary wedding of her dreams while serving time in prison.",
+  "real_name": "Yael Stone",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{ 
+  "character_name": "SoSo",
+  "about": "SoSo is the new girl at Litchfield who has yet to find place or her way in.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Vee",
+  "about": "Vee is a troublemaker that comes along and destroys and test relationships/friendships.",
+  "real_name": "Lorraine Toussaint",
+  "category": ["inmate"],
+  "gender": "female",  
+  "status": "deceased",
+  "episodes": "12",
+  "seasons": ["S2"]
+},
+{
+  "character_name": "Taystee",
+  "about": "Taystee is a young woman with a troubled past trying to come to terms and branch out on her own.",
+  "real_name": "Danielle Brooks",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Crazy Eyes",
+  "about": "Suzanne just wants to be loved and taken seriously but struggles to do so while serving time.",
+  "real_name": "Uzo Aduba",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Poussey",
+  "about": "Her name is not pronounced (Pussy) but (Poussey) and she is the supportive side kick to Taystee.",
+  "real_name": "Samira Wiley",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Janae Watson",
+  "about": "Janae is a young lady who took the wrong path in life and apparently loves the SHU.",
+  "real_name": "Vicky Jeudy",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Black Cindy",
+  "about": "Black Cindy is serving time for fucking with the TSA!? and a comedic sidekick.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Sophia Burset",
+  "about": "Sophia will take care of your roots, weave, and also steal your credit cards if they were allowed in prison.",
+  "real_name": "Laverne Cox",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "John Bennett",
+  "about": "John is in love with in inmate Daya Diaz.",
+  "real_name": "Matt McGorry",
+  "category": ["guard, civilian", "staff"],
+  "gender": "male",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Daya Diaz",
+  "about": "Daya is serving time in prison for unknown reasons and in love with John Bennett.",
+  "real_name": "Dascha Polanco",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Aleida Diaz",
+  "about": "Aleida Diaz is doing her best to be a better mother to her daughter Daya and serving time for unknown reasons.",
+  "real_name": "Elizabeth Rodriguez",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "George Mendez",
+  "about": "Mendez is an asshole with feelings and has fallen hard for inmate Daya Diaz.",
+  "real_name": "Pablo Schreiber",
+  "category": ["guard, civilian", "staff"],
+  "gender": "male",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Flaca",
+  "about": "Flaca is the outspoken latina and best friend of Maritza.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Maritza",
+  "about": "Maritza is serving time for being pretty and the best friend of Flaca.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Fig",
+  "about": "Fig is shady as hell and doesn&#8217;t care about any of the inmate at Litchfield.",
+  "real_name": "",
+  "category": ["civilian", "staff"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Joe Caputo",
+  "about": "Mr. Caputo runs things at Litchfield and it constantly treated like shit by Fig.",
+  "real_name": "Nick Sandow",
+  "category": ["civilian", "staff"],
+  "gender": "male",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Mr. Healy",
+  "about": "Sam is a confused man who is the complete opposite of who he was last season.",
+  "real_name": "Michael Harney",
+  "category": ["civilian", "staff"],
+  "gender": "male",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Pennsatucky",
+  "about": "Pennsatucky is a meth head who is currently questioning her relationship with god.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Leanne",
+  "about": "Leanne is the former Meth head friend of Pennsatucky and is obsessed with dolphins.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Angie",
+  "about": "Angie is the meth head bestie of Leanne.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Yoga Jones",
+  "about": " Yoga Jones is all about yoga, but not really in S2 of OITNB.",
+  "real_name": "Constance Shulman",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Sister",
+  "about": "Sister Ingalls is a former Nun with a witty sense of humor.",
+  "real_name": "Beth Fowler",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Norma",
+  "about": "Norma is the silent former best friend/sidekick of Red with a big heart.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Big Boo",
+  "about": "Big Boo is the hardcore butch looking for love in Litchfield.",
+  "real_name": "Lea DeLaria",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "O&#8217;Neal",
+  "about": "O&#8217;Neal is a mission to getting healthy and fun with C.O. Bell.",
+  "real_name": "",
+  "category": ["guard, civilian", "staff"],
+  "gender": "male",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Gina",
+  "about": "Gina was once the loyal friend/sidekick of Red until she got burned(literally).",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Fischer",
+  "about": "Fischer is a C.O. who sees the inmate as more than just inmate, but as people.",
+  "real_name": "",
+  "category": ["guard, civilian", "staff"],
+  "gender": "male",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Larry Bloom",
+  "about": "Larry is the ex-fiance of Piper Chapman.",
+  "real_name": "Jason Biggs",
+  "category": ["inmate"],
+  "gender": "male",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2"]
+},
+{
+  "character_name": "Polly Harper",
+  "about": "Polly is the best friend Piper Chapman, with a witty yet sarcastic personality.",
+  "real_name": "Maria Dizzia",
+  "category": ["civilian"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Luschek",
+  "about": "Luschek is the asshole C.O. that&#8217;s suppose to fix shit that&#8217;s broken but he never does.",
+  "real_name": "",
+  "category": ["guard", "civilian", "staff"],
+  "gender": "male",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Rosa Cisneros",
+  "about": "Rosa is serving time at Litchfield from a series of bank robberies.",
+  "real_name": "Barbara Rosenblat",
+  "category": ["inmate"],
+  "gender": "female",  
+  "status": "deceased",
+  "episodes": "13",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Wanda Bell",
+  "about": "Wanda is the C.O. that doesn&#8217;t mind telling you to squat &amp; cough.",
+  "real_name": "Catherine Curtin",
+  "category": ["guard", "civilian", "staff"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Cal",
+  "about": " Cal is the loyal yet outspoken brother of Piper Chapman",
+  "real_name": "",
+  "category": ["civilian"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Stella",
+  "about": " Stella the newbie in Litchfield&#8230; and it looks as though she has her eyes set on two of Litchfield Hottest.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Lolly",
+  "about": "Lolly just recently trasnfered from Chicago to Litchfield and she looks like she just might push all the wrong buttons with some.",
+  "real_name": "",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Miss Claudette Pelage",
+  "about": "",
+  "real_name": "Michelle Hurst",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Pete Harper",
+  "about": "Polly's husband.",
+  "real_name": "Nick Stevenson",
+  "category": ["civilian"],
+  "gender": "male",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Tricia Miller",
+  "about": "Tricia is an addict that relapses in Litchfield.",
+  "real_name": "Madeline Brewer",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "deceased",
+  "episodes": "7",
+  "seasons": ["S1"]
+},
+{
+  "character_name": "Anita De Marco",
+  "about": "Anita is Piper's first roomate in Litchfield",
+  "real_name": "Lin Tucci",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "character_name": "Bill Chapman",
+  "about": "Bill Chapman is the father of Piper Chapman and the patriarch of the Chapman family. He is married to Carol Chapman.",
+  "real_name": "Bill Hoag",
+  "category": ["civilian"],
+  "gender": "male",
+  "status": "alive",
+  "episodes": "4",
+  "seasons": ["S1", "S3"]
+},
+{
+  "character_name": "Celeste Chapman",
+  "about": "Celeste Chapman was Piper and Cal's grandmother, and also the mother of Bill Chapman and mother-in-law of Carol Chapman.",
+  "real_name": "Mary Looram",
+  "category": ["civilian"],
+  "gender": "female",  
+  "status": "deceased",
+  "episodes": "3",
+  "seasons": ["S1", "S2"]
+},
+{
+  "character_name": "Fahri",
+  "about": "Fahri worked for the international drug cartel that Alex Vause came to work for.",
+  "real_name": "Sebastian LaCause",
+  "category": ["civilian"],
+  "gender": "male",
+  "status": "deceased",
+  "episodes": "4",
+  "seasons": ["S1", "S2", "S3"]
+}]

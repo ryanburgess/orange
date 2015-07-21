@@ -1,0 +1,33 @@
+{
+  "name": "orange",
+  "version": "1.0.0",
+  "description": "Orange is the new Black API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test"
+  },
+  "keywords": [
+    "orange",
+    "oitnb",
+    "orange",
+    "is",
+    "the",
+    "new",
+    "black",
+    "prison",
+    "characters",
+    "netflix"
+  ],
+  "author": "Ryan Burgess @burgessdryan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jsonlint": "^1.1.0",
+    "jshint-stylish": "^2.0.1"
+  }
+}
