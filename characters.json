@@ -199,13 +199,13 @@
   "seasons": ["S1", "S2", "S3"]
 },
 {
-  "name": "Fig",
-  "about": "Fig is shady as hell and doesn&#8217;t care about any of the inmate at Litchfield.",
-  "real_name": "",
+  "name": "Natalie Figueroa",
+  "about": "Figueroa is shady as hell and doesn&#8217;t care about any of the inmate at Litchfield.",
+  "real_name": "Alysia Reiner",
   "category": ["civilian", "staff"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "18",
   "seasons": ["S1", "S2", "S3"]
 },
 {
@@ -319,13 +319,13 @@
   "seasons": ["S1", "S2", "S3"]
 },
 {
-  "name": "Fischer",
-  "about": "Fischer is a C.O. who sees the inmate as more than just inmate, but as people.",
-  "real_name": "",
+  "name": "Susan Fischer",
+  "about": "Susan Fischer was a rookie correctional officer at Litchfield ",
+  "real_name": "Lauren Lapkus",
   "category": ["guard, civilian", "staff"],
-  "gender": "male",
+  "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "13",
   "seasons": ["S1", "S2", "S3"]
 },
 {
@@ -477,4 +477,54 @@
   "status": "deceased",
   "episodes": "4",
   "seasons": ["S1", "S2", "S3"]
+},
+{
+  "name": "Josephine",
+  "about": "Josephine was the wife of Jean Baptiste. She appeared in the second flashback that Miss Claudette had in the episode \"Imaginary Enemies\". Claudette received a letter from Baptiste later in the episode in which he told her that Josephine had died. He did not reveal the cause of death.",
+  "real_name": "Kristen Adele",
+  "category": ["civilian"],
+  "gender": "female",  
+  "status": "deceased",
+  "episodes": "1",
+  "seasons": ["S1"]
+},
+{
+  "name": "RJ",
+  "about": "RJ was one of Vee's unofficially \"adopted\" children whom she subsequently employed to sell heroin. RJ was also a brother figure to Taystee.",
+  "real_name": "Eric D. Hill Jr.",
+  "category": ["civilian"],
+  "gender": "male",  
+  "status": "deceased",
+  "episodes": "2",
+  "seasons": ["S2"]
+},
+{
+  "name": "Diane Vause",
+  "about": "Diane Vause is Alex Vause's mom.",
+  "real_name": "Kim Director",
+  "category": ["civilian"],
+  "gender": "female",  
+  "status": "deceased",
+  "episodes": "1",
+  "seasons": [""]
+},
+{
+  "name": "Wade Donaldson",
+  "about": "Donaldson is a stern officer who does not tolerate nonsense from the inmates.",
+  "real_name": "Brendan Burke",
+  "category": ["civilian", "staff", "guard"],
+  "gender": "male",  
+  "status": "alive",
+  "episodes": "22",
+  "seasons": ["S1", "S2", "S3"]
+},
+{
+  "name": "Aydin",
+  "about": "Aydin is correctional officer at Litchfield.",
+  "real_name": "Brendan Burke",
+  "category": ["civilian", "staff", "guard"],
+  "gender": "male",  
+  "status": "alive",
+  "episodes": "2",
+  "seasons": ["S3"]
 }]
