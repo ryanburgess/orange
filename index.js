@@ -12,8 +12,12 @@ var port = process.env.PORT || 8080;
 var router = express.Router();
 
 router.get('/all', function(req, res) {
-    res.json(orange);   
+  res.json(orange);   
 });
+
+function updateObject(value){
+  object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
+}
 
 router.get('/name/:name', function(req, res) {
     var name = req.params.name;
@@ -21,7 +25,7 @@ router.get('/name/:name', function(req, res) {
     object = [];  
     orange.forEach(function(value) {
       if(value.name.toLowerCase() === name){
-        object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
+        updateObject(value);
       }
     });
 
@@ -34,7 +38,7 @@ router.get('/gender/:gender', function(req, res) {
     object = [];
     orange.forEach(function(value) {
       if(value.gender === gender){
-        object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
+        updateObject(value);
       }
     });
 
@@ -48,7 +52,7 @@ router.get('/status/:status', function(req, res) {
     object = [];
     orange.forEach(function(value) {
       if(value.status === status){
-        object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
+        updateObject(value);
       }
     });
 
@@ -62,7 +66,7 @@ router.get('/season/:season', function(req, res) {
     orange.forEach(function(value) {
       value.seasons.forEach(function(s) {
         if(s === season){
-          object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
+          updateObject(value);
         }
       });
       
@@ -78,7 +82,7 @@ router.get('/category/:category', function(req, res) {
     orange.forEach(function(value) {
       value.category.forEach(function(c) {
         if(c === category){
-          object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
+          updateObject(value);
         }
       });
       
