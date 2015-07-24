@@ -55,6 +55,38 @@ router.get('/status/:status', function(req, res) {
     res.json(object);
 });
 
+// search by each season a character has appeared in
+router.get('/season/:season', function(req, res) {
+    var season = req.params.season.toUpperCase();
+    object = [];
+    orange.forEach(function(value) {
+      value.seasons.forEach(function(s) {
+        if(s === season){
+          object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
+        }
+      });
+      
+    });
+
+    res.json(object);
+});
+
+// search by each season a character has appeared in
+router.get('/category/:category', function(req, res) {
+    var category = req.params.category.toLowerCase();
+    object = [];
+    orange.forEach(function(value) {
+      value.category.forEach(function(c) {
+        if(c === category){
+          object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
+        }
+      });
+      
+    });
+
+    res.json(object);
+});
+
 app.use('/', router);
 
 app.listen(port);

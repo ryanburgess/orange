@@ -5,7 +5,7 @@
   "category": ["inmate"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "38",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
@@ -16,7 +16,7 @@
   "category": ["inmate"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "30",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
@@ -27,7 +27,7 @@
   "category": ["inmate"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "39",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
@@ -49,7 +49,7 @@
   "category": ["inmate"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "29",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
@@ -60,18 +60,18 @@
   "category": ["inmate"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "36",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
 { 
   "name": "SoSo",
   "about": "SoSo is the new girl at Litchfield who has yet to find place or her way in.",
-  "real_name": "",
+  "real_name": "Kimiko Glenn",
   "category": ["inmate"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "23",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
@@ -104,7 +104,7 @@
   "category": ["inmate"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "38",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
@@ -115,7 +115,7 @@
   "category": ["inmate"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "24",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
@@ -192,7 +192,7 @@
   "category": ["guard, civilian", "staff"],
   "gender": "male",
   "status": "alive",
-  "episodes": "",
+  "episodes": "17",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
@@ -204,6 +204,17 @@
   "gender": "female",
   "status": "alive",
   "episodes": "",
+  "seasons": ["S1", "S2", "S3"],
+  "image": ""
+},
+{
+  "name": "Tiffany Doggett",
+  "about": "Doggett, who exhibits strong violent tendencies, became a devout Christian following her arrest. After season one, her character develops due to time in the psych ward and exploration of new friendships within the prison environment.",
+  "real_name": "Taryn Manning",
+  "category": ["inmate"],
+  "gender": "female",
+  "status": "alive",
+  "episodes": "35",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
@@ -324,7 +335,7 @@
   "category": ["inmate"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "35",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
@@ -434,7 +445,7 @@
   "category": ["inmate"],
   "gender": "female",
   "status": "alive",
-  "episodes": "",
+  "episodes": "7",
   "seasons": ["S1", "S2", "S3"],
   "image": ""
 },
