@@ -38,9 +38,16 @@ header{
   }
 
   .github-button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px; 
     text-align: center;
     width: 120px;
-    margin-top: 30px;
     @extend %marginAuto;
+
+    @include min-breakpoint($sassySmall){
+      bottom: 60px;
+    }
   }
 }
