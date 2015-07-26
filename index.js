@@ -1,11 +1,15 @@
 var express     = require('express');
+var reactViews  = require('express-react-views');
 var app         = express();
 var bodyParser  = require('body-parser');
 var orange      = require('./characters.json');
-var object = []; 
+var object      = [];
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.set('view engine', 'js');
+app.engine('js', reactViews.createEngine());
+app.use(express.static(__dirname + '/public'));
 
 var port = process.env.PORT || 8080;
 
@@ -18,6 +22,8 @@ router.get('/all', function(req, res) {
 function updateObject(value){
   object.push({name: value.name, about: value.about, real_name: value.real_name, category: value.category, gender: value.gender, status: value.status, episodes: value.episodes, seasons: value.seasons});
 }
+
+app.get('/', require('./routes').index);
 
 router.get('/name/:name', function(req, res) {
     var name = req.params.name;
