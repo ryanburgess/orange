@@ -2,7 +2,7 @@ exports.index = function(req, res){
   res.render('index', { 
     title: 'Orange is the New Black API',
     description: 'An API for the characters on the Netflix original show Orange is the New Black',
-    image: '/img/oitnb.jpg',
+    image: '/img/orange.png',
     github: 'https://github.com/ryanburgess/orange',
     api: [
       {
