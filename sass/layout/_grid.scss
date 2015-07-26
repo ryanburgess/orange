@@ -1,0 +1,9 @@
+.row{
+  @include rem("max-width", $gridMax);
+  width: 90%;
+  @extend %marginAuto;
+
+  @include min-breakpoint($gridMax){
+    width:100%;
+  }
+}

@@ -1,0 +1,31 @@
+// File Name: _header.scss
+// Description: default header styles
+// Used by: style.scss, 
+// Dependencies: 
+// Date created: 26/07/2015
+// ------------------------------------------------------------
+
+header{
+  margin-top: 60px;
+  text-align: center;
+
+  h1{
+    @include rem("font-size", 26); 
+
+    @include min-breakpoint($sassySmall){
+      @include rem("font-size", 32);
+    }
+  }
+
+  img{
+    width: 100%;
+    max-width: 620px;
+  }
+
+  .github-button{
+    text-align: center;
+    width: 120px;
+    margin-top: 30px;
+    @extend %marginAuto;
+  }
+}

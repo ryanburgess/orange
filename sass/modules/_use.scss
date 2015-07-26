@@ -1,0 +1,43 @@
+// File Name: _use.scss
+// Description: A table of API uses and examples
+// Used by: style.scss, 
+// Dependencies: 
+// Date created: 26/07/2015
+// ------------------------------------------------------------
+
+.use{
+  text-align: center;
+  margin: 60px auto;
+  
+  h2{
+    @include rem("font-size", 18);
+    color: $grey;
+
+    @include min-breakpoint($sassySmall){
+      @include rem("font-size", 26);
+    }
+  }
+
+  table{
+    border: 1px solid $grey;
+    text-align: left;
+    @include rem("font-size", 12);
+    @extend %marginAuto;
+
+    @include min-breakpoint($sassySmall){
+      @include rem("font-size", 18);
+    }
+  }
+
+  tr:nth-child(odd){
+    background: $lightGrey;
+  }
+
+  td, th{
+    padding: 5px 10px;
+  }
+
+  a{
+    color: $grey;
+  }
+}
