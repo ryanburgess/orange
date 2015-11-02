@@ -26,75 +26,85 @@ function updateObject(value){
 app.get('/', require('./routes').index);
 
 router.get('/name/:name', function(req, res) {
-    var name = req.params.name;
-    name = name.replace(/-/g, ' ').toLowerCase();
-    object = [];  
-    orange.forEach(function(value) {
-      if(value.name.toLowerCase() === name){
-        updateObject(value);
-      }
-    });
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'X-Requested-With');
+  var name = req.params.name;
+  name = name.replace(/-/g, ' ').toLowerCase();
+  object = [];  
+  orange.forEach(function(value) {
+    if(value.name.toLowerCase() === name){
+      updateObject(value);
+    }
+  });
 
-    res.json(object);
+  res.json(object);
 });
 
 // search by gender male or female
 router.get('/gender/:gender', function(req, res) {
-    var gender = req.params.gender.toLowerCase();
-    object = [];
-    orange.forEach(function(value) {
-      if(value.gender === gender){
-        updateObject(value);
-      }
-    });
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'X-Requested-With');
+  var gender = req.params.gender.toLowerCase();
+  object = [];
+  orange.forEach(function(value) {
+    if(value.gender === gender){
+      updateObject(value);
+    }
+  });
 
-    res.json(object);
+  res.json(object);
     
 });
 
 // search by status alive or deceased
 router.get('/status/:status', function(req, res) {
-    var status = req.params.status.toLowerCase();
-    object = [];
-    orange.forEach(function(value) {
-      if(value.status === status){
-        updateObject(value);
-      }
-    });
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'X-Requested-With');
+  var status = req.params.status.toLowerCase();
+  object = [];
+  orange.forEach(function(value) {
+    if(value.status === status){
+      updateObject(value);
+    }
+  });
 
-    res.json(object);
+  res.json(object);
 });
 
 // search by each season a character has appeared in
 router.get('/season/:season', function(req, res) {
-    var season = req.params.season.toUpperCase();
-    object = [];
-    orange.forEach(function(value) {
-      value.seasons.forEach(function(s) {
-        if(s === season){
-          updateObject(value);
-        }
-      });
-      
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'X-Requested-With');
+  var season = req.params.season.toUpperCase();
+  object = [];
+  orange.forEach(function(value) {
+    value.seasons.forEach(function(s) {
+      if(s === season){
+        updateObject(value);
+      }
     });
+    
+  });
 
-    res.json(object);
+  res.json(object);
 });
 
 // search by each season a character has appeared in
 router.get('/category/:category', function(req, res) {
-    var category = req.params.category.toLowerCase();
-    object = [];
-    orange.forEach(function(value) {
-      value.category.forEach(function(c) {
-        if(c === category){
-          updateObject(value);
-        }
-      });
-      
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'X-Requested-With');
+  var category = req.params.category.toLowerCase();
+  object = [];
+  orange.forEach(function(value) {
+    value.category.forEach(function(c) {
+      if(c === category){
+        updateObject(value);
+      }
     });
+    
+  });
 
-    res.json(object);
+  res.json(object);
 });
 
 app.use('/', router);
