@@ -16,3 +16,10 @@ An API for the Netflix Original - Orange is the New Black.
 | Gender        | female or male | [/gender/:gender](https://orange-api.herokuapp.com/gender/female)|
 | Status        | alive or deceased | [/status/:status](https://orange-api.herokuapp.com/status/alive)|
 
+## Contributing
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
